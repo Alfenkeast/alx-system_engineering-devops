@@ -1,2 +1,21 @@
 #!/bin/bash
-ls -al. ../boot
+.:
+total 72
+drwxr-xr-x 2 root root  4096 Aug 31 16:42 .
+drwxr-xr-x 4 root root   130 Aug 31 09:24 ..
+-rw-r--r-- 1 root root     4 Aug 31 08:18 0-cureent_working_directory
+-rwxr--r-- 1 root root    16 Aug 31 11:57 0-current_working_directory
+-rwxr--r-- 1 root root    17 Aug 31 16:16 10-back
+-rwxr--r-- 1 root root    12 Aug 31 17:18 11-lists
+-rwxr--r-- 1 root root    15 Aug 31 12:29 1-listit
+-rw-r--r-- 1 root root 12288 Aug 31 12:16 .1-listit.swp
+-rwxr--r-- 1 root root    17 Aug 31 12:39 2-bring_me_home
+-rwxr--r-- 1 root root    18 Aug 31 13:26 3-listfiles
+-rwxr--r-- 1 root root    19 Aug 31 13:31 4-listmorefiles
+-rwxr--r-- 1 root root    19 Aug 31 13:35 5-listfilesdigitonly
+-rwxr--r-- 1 root root    43 Aug 31 15:30 6-firstdirectory
+-rwxr--r-- 1 root root    56 Aug 31 15:55 7-movethatfile
+-rwxr--r-- 1 root root    45 Aug 31 15:59 8-firstdelete
+-rwxr--r-- 1 root root    43 Aug 31 16:04 9-firstdirdeletion
+-rw-r--r-- 1 root root    21 Aug 31 07:41 README.md
+ls -al . ../boot
