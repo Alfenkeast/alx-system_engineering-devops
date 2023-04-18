@@ -1,6 +1,9 @@
 0. Block all incoming traffic but
 mandatory
+<<<<<<< HEAD
 Score: 85.71% (Checks completed: 85.71%)
+=======
+>>>>>>> 6a6202d2e52928ffcbf7ba118b7233a116496316
 Let’s install the ufw firewall and setup a few rules on web-01.
 
 Requirements:
@@ -11,6 +14,7 @@ Configure ufw so that it blocks all incoming traffic, except the following TCP p
 443 (HTTPS SSL)
 80 (HTTP)
 Share the ufw commands that you used in your answer file
+<<<<<<< HEAD
 Repo:
 
 GitHub repository: alx-system_engineering-devops
@@ -26,3 +30,5 @@ Requirements:
 Configure web-01 so that its firewall redirects port 8080/TCP to port 80/TCP.
 Your answer file should be a copy of the ufw configuration file that you modified to make this happen
 Terminal in web-01:
+=======
+>>>>>>> 6a6202d2e52928ffcbf7ba118b7233a116496316
