@@ -14,7 +14,7 @@ def top_ten(subreddit):
     """
     # Set the Default URL strings
     base_url = 'https://www.reddit.com'
-    api_uri = '{base}/r/{subreddit}/hot.json'.format(base=base_url,
+    api_url = '{base}/r/{subreddit}/hot.json'.format(base=base_url,
                                                      subreddit=subreddit)
 
     # Set an User-Agent
@@ -24,7 +24,7 @@ def top_ten(subreddit):
     payload = {'limit': '10'}
 
     # Get the Response of the Reddit API
-    res = requests.get(api_uri, headers=user_agent,
+    res = requests.get(api_url, headers=user_agent,
                        params=payload, allow_redirects=False)
 
     # Checks if the subreddit is invalid
