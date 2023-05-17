@@ -1,4 +1,11 @@
 # ssh config file
+<<<<<<< HEAD
 Host
       PasswordAuthentication no
       IdentifyFile ~/.ssh/school
+=======
+Host 
+    HostName 34.232.68.147
+    PasswordAuthentication no
+    IdentifyFile ~/.ssh/school
+>>>>>>> 4945afcf40b37ad658ae1aee031c395d7af74ee8
